@@ -18,6 +18,8 @@
 		C15EA60E182C76AB000D3B65 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15EA5ED182C76AA000D3B65 /* Cocoa.framework */; };
 		C15EA616182C76AB000D3B65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C15EA614182C76AB000D3B65 /* InfoPlist.strings */; };
 		C15EA618182C76AB000D3B65 /* HexColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA617182C76AB000D3B65 /* HexColorTests.m */; };
+		C15EA629182C788C000D3B65 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA627182C788C000D3B65 /* MasterViewController.m */; };
+		C15EA62A182C788C000D3B65 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15EA628182C788C000D3B65 /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		C15EA613182C76AB000D3B65 /* HexColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HexColorTests-Info.plist"; sourceTree = "<group>"; };
 		C15EA615182C76AB000D3B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C15EA617182C76AB000D3B65 /* HexColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexColorTests.m; sourceTree = "<group>"; };
+		C15EA626182C788C000D3B65 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C15EA627182C788C000D3B65 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C15EA628182C788C000D3B65 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				C15EA5FF182C76AA000D3B65 /* AppDelegate.h */,
 				C15EA600182C76AA000D3B65 /* AppDelegate.m */,
 				C15EA602182C76AA000D3B65 /* MainMenu.xib */,
+				C15EA626182C788C000D3B65 /* MasterViewController.h */,
+				C15EA627182C788C000D3B65 /* MasterViewController.m */,
+				C15EA628182C788C000D3B65 /* MasterViewController.xib */,
 				C15EA605182C76AA000D3B65 /* Images.xcassets */,
 				C15EA5F4182C76AA000D3B65 /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15EA62A182C788C000D3B65 /* MasterViewController.xib in Resources */,
 				C15EA5F8182C76AA000D3B65 /* InfoPlist.strings in Resources */,
 				C15EA606182C76AA000D3B65 /* Images.xcassets in Resources */,
 				C15EA5FE182C76AA000D3B65 /* Credits.rtf in Resources */,
@@ -253,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15EA601182C76AA000D3B65 /* AppDelegate.m in Sources */,
+				C15EA629182C788C000D3B65 /* MasterViewController.m in Sources */,
 				C15EA5FA182C76AA000D3B65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
