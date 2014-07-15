@@ -8,7 +8,10 @@
 
 #import "MasterViewController.h"
 
-@interface MasterViewController ()<NSTextDelegate>
+@interface MasterViewController ()
+<
+    NSTextDelegate
+>
 @property (weak) IBOutlet NSTextField *inputTextField;
 @property (weak) IBOutlet NSTextFieldCell *colorLabel;
 @property (weak) IBOutlet NSColorWell *colorWell;
@@ -75,7 +78,7 @@
         UInt8 green_value = green >> 2;
         UInt8 blue_value = blue >> 3;
         
-        NSString *colorStr = [NSString stringWithFormat:@"r:%d g:%d b:%d", red, green, blue];
+        NSString *colorStr = [NSString stringWithFormat:@"r:%d g:%d b:%d [ %02x%02x%02x ]", red, green, blue, red, green, blue];
         UInt16 pixel565 = (red_value << 11) | (green_value << 5) | blue_value;
         
         [_colorLabel setStringValue:colorStr];
